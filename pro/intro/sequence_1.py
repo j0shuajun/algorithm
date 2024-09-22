@@ -8,7 +8,7 @@ l = list(map(int, input().split()))
 h = 0  # head
 t = N - 1  # tail
 
-m = 1e9
+m = 1e10
 
 while h < t:
     s = l[h] + l[t]
